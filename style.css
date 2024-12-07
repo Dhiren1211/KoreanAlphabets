@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Quiz Container */
+.quiz-container {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    flex: 2;
+    text-align: center;
+}
+
+/* Reference Panel */
+.reference-panel {
+    background: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.reference-panel h2 {
+    font-size: 20px;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#reference-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reference-item {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reference-item span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reference-item .romanized {
+    color: #4CAF50;
+}
+
+/* Other Styling */
+#question-area {
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 58px;
+    font-weight: bold;
+}
+
+#user-answer {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: none;
+    border-bottom: #45a049 2px solid;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #45a049;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+#feedback {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}

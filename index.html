@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korean Alphabet Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Quiz Section -->
+        <div class="quiz-container">
+            <header>
+                <h1>Korean Alphabet Quiz</h1>
+            </header>
+            <main>
+                <div id="question-area">
+                    <p id="alphabet-display">?</p>
+                </div>
+                <input type="text" id="user-answer" placeholder="Type your answer here">
+                <button id="submit-btn">Submit</button>
+                <p id="feedback"></p>
+                <button id="toggle-btn">Switch to Mixed Letters</button>
+            </main>
+            <footer>
+                <p>Test your knowledge of Korean letters!</p>
+            </footer>
+        </div>
+
+        <!-- Reference Panel -->
+        <div class="reference-panel">
+            <h2>Reference</h2>
+            <div id="reference-list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
